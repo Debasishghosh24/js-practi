@@ -59,9 +59,10 @@ for(let i=0; i<10; i++) {
     for(let j=i; j<=i; j++) {
         pattern = pattern + "*"
     }
-    console.log(pattern);
+    
     
 }
+console.log(pattern);
 
 
 
