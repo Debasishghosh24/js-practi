@@ -8,6 +8,7 @@ for(let i=2; i<=100; i++) {
         
         if(i % j === 0) {
             count = 0;
+            break;
             
             
         
