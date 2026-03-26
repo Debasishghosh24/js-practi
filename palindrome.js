@@ -4,6 +4,8 @@ let name = "121";
 
 let str = ""
 
+
+
 for(let i=name.length-1; i>=0; i--) {
     str = str + name[i];
 }
