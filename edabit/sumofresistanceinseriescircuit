@@ -1,0 +1,12 @@
+
+function seriesResistance(arr) {
+    let store = 0;
+
+    for(let i=0; i<arr.length; i++) {
+        store = (store + arr[i])
+    }
+    return store + (store<=1 ? "ohm" : "ohms");
+}
+console.log(seriesResistance([1, 5, 6, 3]));
+console.log(seriesResistance([16, 3.5, 6]) );
+console.log(seriesResistance([0.5, 0.5]) );
