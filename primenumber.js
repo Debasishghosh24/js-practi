@@ -44,20 +44,37 @@
 
 
 
-let number = 9;
+// let number = 9;
 
-let value = 1
+// let value = 1
 
-for(let i=2; i<=number-1; i++) {
+// for(let i=2; i<=number-1; i++) {
 
+//     if(number % i === 0) {
+//         value = 0; 
+//     }
+// }
+
+// if(value) {
+//     console.log("this is prime");
+// }else{
+//     console.log("This is not prime");
+// }
+
+
+let number = 10
+
+let value = 1;
+
+for(let i=2; i<number; i++) {
     if(number % i === 0) {
-        value = 0; 
+        value = 0;
+        break;
     }
 }
 
 if(value) {
-    console.log("this is prime");
+    console.log("This is prime")
 }else{
-    console.log("This is not prime");
+    console.log("This is not prime")
 }
-

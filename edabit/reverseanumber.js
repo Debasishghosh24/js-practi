@@ -26,14 +26,29 @@
 // console.log(reverseNumber(12145454));
 
 
-function reverseString(num) {
-    let store = 0;
+// function reverseString(num) {
+//     let store = 0;
 
-    while(num>0) {
-        let rem = num % 10;
-        num = Math.floor(num/10)
-        store = (store * 10) + rem;
-    }
-    return store;
+//     while(num>0) {
+//         let rem = num % 10;
+//         num = Math.floor(num/10)
+//         store = (store * 10) + rem;
+//     }
+//     return store;
+// }
+// console.log(reverseString(4567));
+
+
+
+let number = 8679;
+
+let store = [];
+
+while(number>0) {
+    let rem = number % 10;
+    number = Math.floor(number/10)
+    store = (store * 10) + rem;
+   
+
 }
-console.log(reverseString(4567));
+console.log(store);
